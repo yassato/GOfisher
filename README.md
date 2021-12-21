@@ -4,7 +4,7 @@ This is an R packge for simple GO enrichment analyses of *Arabidopsis thaliana*.
 The GOfisher package includes a sort of functions to perform Fisher's exact probability tests with FDR correction.  
 
 ## Installation
-The package is simply installed via this GitHub repository using the devtools package.  
+The package can be installed via this GitHub repository using the devtools package.  
 ```
 devtools::install_github("https://github.com/yassato/GOfisher")
 ```
