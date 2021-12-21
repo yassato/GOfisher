@@ -1,6 +1,6 @@
 # GOfisher  
 
-This is an R packge for simple GO enrichment analyses of *Arabidopsis thaliana*.  
+This is an R packge for simple GO enrichment analyses on *Arabidopsis thaliana* genes.  
 The GOfisher package includes a sort of functions to perform Fisher's exact probability tests with FDR correction.  
 
 ## Installation
