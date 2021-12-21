@@ -34,7 +34,7 @@ The GOfisher package has the utility function, named GOfisher2REVIGO(), to conve
 ```
 library(rrvgo)
 library(org.At.tair.db)
-res = GOfisher2REVIGO(fisher.res[fisher.res[,"xtt"]>1,],gl,ulg)
+res <- GOfisher2REVIGO(fisher.res[fisher.res[,"xtt"]>1,],gl,ulg)
 simMatrix <- calculateSimMatrix(res$ID, orgdb="org.At.tair.db", ont="BP", method="Rel")
 scores <- setNames(-log10(res$qvalue), res$ID)
 reducedTerms <- reduceSimMatrix(simMatrix, scores, threshold=0.7, orgdb="org.At.tair.db")
@@ -47,11 +47,11 @@ To search genes with a given GO ID
 ```
 data(ulg)
 data(gl)
-res <- ng.SearchGOTerms(gl, "GO:0006952", ulg)
+genes <- ng.SearchGOTerms(gl, "GO:0006952", ulg)
 ```
 
-To check gene descriptions  
+Then to check gene descriptions  
 ```
 data(des)
-des[res,]
+des[genes,]
 ```
