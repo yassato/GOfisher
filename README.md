@@ -57,7 +57,7 @@ des[genes,]
 ```
 
 ## References
-The original source codes are developed by [A.J. Nagano Lab](https://github.com/naganolab/). The same methods were used by Kamitani et al. (2019); Sato et al. (2018); and others.  
+The original source codes are developed by [A.J. Nagano Lab](https://github.com/naganolab/). The same methods were used by Kamitani et al. (2019); Sato et al. (2019); and others.  
 - Kamitani M, Kashima M, Tezuka A, Nagano AJ. (2019) Lasy-Seq: A High-Throughput Library Preparation Method for RNA-Seq and Its Application in the Analysis of Plant Responses to Fluctuating Temperatures. Scientific Reports 9:7091. https://doi.org/10.1038/s41598-019-43600-0.  
 - Sato Y, Tezuka A, Kashima M, Deguchi A, Shimizu-Inatsugi R, Yamazaki M, Shimizu KK, Nagano AJ. (2019) Transcriptional Variation in Glucosinolate Biosynthetic Genes and Inducible Responses to Aphid Herbivory on Field-Grown *Arabidopsis Thaliana*. Frontiers in Genetics 10:787. https://doi.org/10.3389/fgene.2019.00787.
 
