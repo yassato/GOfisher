@@ -1,0 +1,18 @@
+Package: GOfisher
+Title: Simple GO enrichment analysis using the Fisher tests
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given = "Atsushi J.", family = "Nagano", role = "aut", comment = c(ORCID = "0000-0001-7891-5049")),
+    person(given = "Yasuhiro", family = "Sato", role = c("aut", "cre"), email = "sato.yasuhiro.36c@kyoto-u.jp", comment = c(ORCID = "0000-0002-6466-723X"))
+	)
+Description: A sort of functions to perform Fisher's exact probability tests with FDR correction.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    GO.db,
+    AnnotationDbi
+Depends:
+    R (>= 2.10)
