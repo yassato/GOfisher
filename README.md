@@ -20,7 +20,7 @@ save(ulg,file="ulg", version=2)
 ```
 
 ### Run Fisher tests
-Fisher tests are run multiple times by ng.mft(), and then corrected for the false discovery rate by ng.prepGOtestOutTable().
+Fisher tests are run multiple times using ng.mft(), and then corrected by the false discovery rate using ng.prepGOtestOutTable().
 ```
 data(ulg)
 data(gl)
