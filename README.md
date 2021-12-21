@@ -6,7 +6,7 @@ The GOfisher package includes a sort of functions to perform Fisher's exact prob
 ## Installation
 The package is simply installed via this GitHub repository using the devtools package.  
 ```
-devtools::install_github("GITHUB_url")
+devtools::install_github("https://github.com/yassato/GOfisher")
 ```
 
 ## Usage
@@ -30,8 +30,16 @@ GO.list[order(GO.list[,1]),]
 ```
 
 ### Visualization
+The GOfisher package has the utility function, named GOfisher2REVIGO(), to convert its output as an input of the rrvgo package.
 ```
+library(rrvgo)
+library(org.At.tair.db)
+res = GOfisher2REVIGO(fisher.res[fisher.res[,"xtt"]>1,],gl,ulg)
+simMatrix <- calculateSimMatrix(res$ID, orgdb="org.At.tair.db", ont="BP", method="Rel")
+scores <- setNames(-log10(res$qvalue), res$ID)
+reducedTerms <- reduceSimMatrix(simMatrix, scores, threshold=0.7, orgdb="org.At.tair.db")
 
+treemapPlot(reducedTerms)
 ```
 
 ### Tips  
