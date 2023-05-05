@@ -12,7 +12,7 @@ devtools::install_github("https://github.com/yassato/GOfisher")
 ## Usage
 
 ### Input files  
-A list of AGI codes and GO terms is made from [the TAIR annotation file](https://www.arabidopsis.org/download_files/GO_and_PO_Annotations/Gene_Ontology_Annotations/ATH_GO_GOSLIM.txt)
+A list of AGI codes and GO terms is made from [the TAIR annotation files](https://doi.org/10.5281/zenodo.7159104).  
 ```
 fn <- "./PATH/ATH_GO_GOSLIM.txt"
 ulg <- ng.GOprep_TAIR(fn) # it takes ca. 3 hrs
